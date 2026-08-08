@@ -22,7 +22,13 @@ function render(users) {
     <p>${u.phone}</p>
     <p>${u.address.city}</p>
     <p>${u.website}</p>
-    
+    </div>
+
     ` 
 )
+.json("");
+}
+
+document.getElementById("search").addEventListener("input", (e) =>){
+    
 }
