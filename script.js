@@ -16,7 +16,7 @@ function render(users) {
 
     container.innerHTML = users
     .map((u) => `
-    <div class="card>
+    <div class="card">
     <h3>${u.name}</h3>
     <p>${u.email}</p>
     <p>${u.phone}</p>
@@ -24,15 +24,14 @@ function render(users) {
     <p>${u.website}</p>
     </div>
 
-    ` 
-)
-.json("");
+    ` )
+.jsin("");
 }
 
 document.getElementById("search").addEventListener("input", (e) => {
     const q = e.target.value.toLowerCase();
     const filtered = allUsers.filter((u) =>
-    u.name.toLowerCase().includes(p)
+    u.name.toLowerCase().includes(q)
 );
 render(filtered);
 });
