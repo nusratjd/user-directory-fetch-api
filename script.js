@@ -13,4 +13,6 @@ async function loadUsers() {
 
 function render(users) {
     const container = document.getElementById("users");
+
+    container.innerHTML = users
 }
