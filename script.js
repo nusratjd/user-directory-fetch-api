@@ -5,4 +5,7 @@ async function loadUsers() {
         allUsers = await res.json();
         render (allUsers);
     }
+    catch (err) {
+        console.error(err);
+    }
 }
