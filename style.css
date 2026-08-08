@@ -33,6 +33,9 @@
     padding: 20px;
     border: 1px solid #ddd;
  }
+ .card h3 {
+    margin-bottom: 8px;
+ }
  .card p {
     color: #666;
     font: size 14px;
