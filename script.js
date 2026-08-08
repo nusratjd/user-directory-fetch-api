@@ -7,5 +7,6 @@ async function loadUsers() {
     }
     catch (err) {
         console.error(err);
+        document.getElementById("users").innerHTML = "Error!";
     }
 }
