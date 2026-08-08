@@ -30,5 +30,6 @@ function render(users) {
 }
 
 document.getElementById("search").addEventListener("input", (e) =>){
+    const q = e.target.value.toLowerCase();
     
 }
