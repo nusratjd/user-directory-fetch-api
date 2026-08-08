@@ -21,6 +21,7 @@ function render(users) {
     <p>${u.email}</p>
     <p>${u.phone}</p>
     <p>${u.address.city}</p>
+    <p>${u.website}</p>
     
     ` 
 )
