@@ -19,6 +19,7 @@ function render(users) {
     <div class="card>
     <h3>${u.name}</h3>
     <p>${u.email}</p>
+    <p>${u.phone}</p>
     
 
     `
