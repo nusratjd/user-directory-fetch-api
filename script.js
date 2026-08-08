@@ -1,1 +1,4 @@
-let allUsers =[]
+let allUsers = [] ;
+async function loadUsers() {
+    
+}
