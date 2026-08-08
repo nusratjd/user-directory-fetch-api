@@ -28,3 +28,13 @@
     max-width: 1000px;
     margin: 0 auto;
  }
+ .card{
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+ }
+ .card p {
+    color: #666;
+    font: size 14px;
+    margin-bottom: 4px;
+ }
