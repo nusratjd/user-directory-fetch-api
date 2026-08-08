@@ -29,10 +29,12 @@ function render(users) {
 .json("");
 }
 
-document.getElementById("search").addEventListener("input", (e) =>){
+document.getElementById("search").addEventListener("input", (e) => {
     const q = e.target.value.toLowerCase();
     const filtered = allUsers.filter((u) =>
     u.name.toLowerCase().includes(p)
 );
 render(filtered);
-}
+});
+
+loadUsers();
