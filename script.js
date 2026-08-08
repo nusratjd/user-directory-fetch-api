@@ -25,7 +25,7 @@ function render(users) {
     </div>
 
     ` )
-.jsin("");
+.join("")
 }
 
 document.getElementById("search").addEventListener("input", (e) => {
