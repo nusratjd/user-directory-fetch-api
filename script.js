@@ -10,3 +10,7 @@ async function loadUsers() {
         document.getElementById("users").innerHTML = "Error!";
     }
 }
+
+function render(users) {
+    
+}
