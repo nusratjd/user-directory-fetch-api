@@ -34,4 +34,5 @@ document.getElementById("search").addEventListener("input", (e) =>){
     const filtered = allUsers.filter((u) =>
     u.name.toLowerCase().includes(p)
 );
+render(filtered);
 }
