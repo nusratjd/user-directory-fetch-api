@@ -15,4 +15,14 @@ function render(users) {
     const container = document.getElementById("users");
 
     container.innerHTML = users
+    .map((u) => `
+    <div class="card>
+    <h3>${u.name}</h3>
+    <p>${u.email}</p>
+    
+
+    `
+
+    
+)
 }
